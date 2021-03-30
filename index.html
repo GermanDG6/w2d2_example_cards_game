@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Example Card Game</title>
+</head>
+<body>
+  
+  <div class="flex-column-center">
+    
+    <div id="inputs-div" class="flex-space-around">
+      <div>
+        <label for="player1">Nombre del jugador 1</label>
+        <input type="text" id="player1">        
+      </div>
+      <div>
+        <label for="player2">Nombre del jugador 2</label>
+        <input type="text" id="player2">        
+      </div>
+    </div>
+    
+    <button id="begin-game">Comenzar partida</button>
+    <button id="deal-cards" class="display-none">Repartir cartas</button>      
+    <button id="check-winner" class="display-none">Ver ganador</button>
+
+    
+    <p id="winner" class="display-none"></p>
+
+    <button id="reload">Nueva partida</button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+#begin-game {
+  width: 100px;
+  margin-top: 50px;
+}
+
+.flex-column-center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-around {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.display-none {
+  display: none;
+}
